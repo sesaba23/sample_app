@@ -9,6 +9,9 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
 
+# Use of twitter's bootstrap framework to CSS styles
+gem 'bootstrap-sass', '3.3.7'
+
 # We use haml views instead of erb files
 gem 'haml'
 # Use sqlite3 as the database for Active Record
