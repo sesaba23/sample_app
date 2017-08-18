@@ -39,8 +39,6 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   # Use sqlite3 as the database for Active Record
   # Heroku does not support sqlite3
@@ -61,6 +59,16 @@ group :test do
   gem 'minitest-reporters',       '1.1.14'
   gem 'guard',                    '2.13.0'
   gem 'guard-minitest',           '2.4.4'
+  # Add gems for BDD and TDD Agile development
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'autotest-rails'
+  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails-training-wheels'
+  gem 'database_cleaner'
+  gem 'capybara' # Cucumber will pretend to be a browser
+  gem 'launchy' #a useful debugging aid for user stories 
+  
 end
 
 group :production do
