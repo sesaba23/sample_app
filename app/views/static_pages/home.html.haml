@@ -1,7 +1,12 @@
 -# This file is app/views/static_pages/home.html.haml
-%h1 Testing Haml views Home page
-
-%p
-  This is the home page for the
-  %a{:href => "http://www.railstutorial.org/"} Ruby on Rails Tutorial
-  sample application.
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Home | Ruby on Rails Tutorial Sample App
+  %body
+    %h1 Sample App
+    %p
+      This is the home page for the
+      %a{:href => "http://www.railstutorial.org/"} Ruby on Rails Tutorial
+      sample application.

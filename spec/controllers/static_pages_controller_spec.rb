@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 describe StaticPagesController do
+    render_views
     describe 'Should get the given web page' do
         it 'selects the home template for rendering' do
              get :home
