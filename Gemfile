@@ -8,6 +8,9 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
+
+# We use haml views instead of erb files
+gem 'haml'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3' #Heroku doesn't support SQLite
 # Use Puma as the app server
