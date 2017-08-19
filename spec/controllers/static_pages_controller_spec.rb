@@ -12,5 +12,8 @@ describe StaticPagesController do
        it 'selects the about template for rendering' do
             get :about
        end
+       it 'selects the contact template for rendering' do
+        get :contact
+   end
     end
 end
