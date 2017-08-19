@@ -12,6 +12,9 @@ gem 'rails', '~> 5.1.3'
 # Use of twitter's bootstrap framework to CSS styles
 gem 'bootstrap-sass', '3.3.7'
 
+# Helps hashing passwords
+gem 'bcrypt',         '3.1.11'
+
 # We use haml views instead of erb files
 gem 'haml'
 # Use sqlite3 as the database for Active Record
